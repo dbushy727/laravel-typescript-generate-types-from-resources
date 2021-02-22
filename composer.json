@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "dbushy727/laravel-typescript-generate-types-from-resources",
+    "description": "Generate Typescript Types from Laravel Resources",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "dbushy727",
+        "laravel-typescript-generate-types-from-resources"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/dbushy727/laravel-typescript-generate-types-from-resources",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Daniel Bushkanets",
+            "email": "d.bushkanets@gmail.com",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Dbushy727\\TypescriptTypesGenerator\\": "src",
+            "Dbushy727\\TypescriptTypesGenerator\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Dbushy727\\TypescriptTypesGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Dbushy727\\TypescriptTypesGenerator\\TypescriptTypesGeneratorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "TypescriptTypesGenerator": "Dbushy727\\TypescriptTypesGenerator\\TypescriptTypesGeneratorFacade"
             }
         }
     },

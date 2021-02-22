@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Dbushy727\TypescriptTypesGenerator\Tests;
 
 class ExampleTest extends TestCase
 {
