@@ -2,9 +2,9 @@
 
 namespace Dbushy727\TypescriptTypesGenerator\Tests;
 
+use Dbushy727\TypescriptTypesGenerator\TypescriptTypesGeneratorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Dbushy727\TypescriptTypesGenerator\TypescriptTypesGeneratorServiceProvider;
 
 class TestCase extends Orchestra
 {

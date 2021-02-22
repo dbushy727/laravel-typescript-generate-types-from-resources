@@ -2,9 +2,9 @@
 
 namespace Dbushy727\TypescriptTypesGenerator;
 
+use Dbushy727\TypescriptTypesGenerator\Commands\TypescriptTypesGeneratorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Dbushy727\TypescriptTypesGenerator\Commands\TypescriptTypesGeneratorCommand;
 
 class TypescriptTypesGeneratorServiceProvider extends PackageServiceProvider
 {
